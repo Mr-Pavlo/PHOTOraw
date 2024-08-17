@@ -1,0 +1,112 @@
+/* for index.html*/
+
+header{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 10px;
+    position: fixed;
+    background: #ffffff;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    /*border-bottom: 2px solid #1D1D1E;*/
+    z-index: 99; /* якщо на <header> налягають елементи - необхідно збільшити значення z-index: value; */
+}
+.p-logo{
+    float: left;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.div-header{
+    text-align: center;
+    color: #1D1D1E;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding-top: 24px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.a-decor{
+    text-decoration: none;
+    padding: 0 25px; /* Додав по 25px праворуч і ліворуч */
+    color: #1D1D1E;
+    font-size: 21px;
+    text-align: center;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    display: inline-block; /* додав цей параметр, використовуючи його вдалося відцентрувати текст */
+}
+.a-decor:hover{
+    border-left: 2px solid rgb(170, 170, 170);
+    border-right: 2px solid rgb(170, 170, 170);
+    font-family: 27px;
+}
+
+.section-1{
+    float: left;
+    margin-left: 8%;
+    /*position: absolute;*/
+    display: flow-root;
+}
+.div-info-on-section-1{
+    padding-left: 0%;
+    float: left;
+    width: 40%;
+    padding-top: 15%;
+    /*position: relative;
+    z-index: 1;*/
+}
+.div-h1-on-section-1{
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1D1D1E;
+    font-size: 47px;
+    word-spacing: 5px;
+    margin-bottom: 0;
+}
+.div-p-on-section-1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 20%;
+}
+.div-button-on-section-1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    padding: 18px 32px;
+    font-size: 16px;
+    color: #FDE9EB;
+    background-color: #2B3E82;
+    border: none;
+}
+.div-collage-on-section-1{
+    position: relative;
+    transform: scale(0.5);
+}
+
+
+
+/* for registration.html*/
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .inner-left {
+     width: 150px;
+     
+     outline: 1px solid #060;
+  }
+  .inner-right {
+    flex-basis: 250px;
+    flex-grow: 1;
+    
+    outline: 1px solid #900;
+  }
